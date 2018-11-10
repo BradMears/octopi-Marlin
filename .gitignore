@@ -1,0 +1,5 @@
+artifacts/
+Marlin-1.1.*/*
+!Marlin-1.1.*/Marlin
+Marlin-1.1.*/Marlin/*
+!Marlin-1.1.*/Marlin/Configuration.h
