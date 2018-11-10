@@ -1,11 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 # Build Marlin and upload it to the Mega
 
 export MARLIN_VER=1.1.9
 export MARLIN=${HOME}/Marlin/Marlin-${MARLIN_VER}/Marlin
 export BUILD_PATH=${HOME}/Marlin/artifacts
 export ARDUINO=${HOME}/arduino/arduino-1.8.7/arduino
-
 
 #rm -rf ${BUILD_PATH}
 
